@@ -1,0 +1,20 @@
+h1 {color: aqua;}
+.test_box {}
+.test_box h1 {color: bisque;}
+.test_box h2 {color: blue;}
+.test_box h3 {color: bisque;}
+.test_box h4 {color: blue;}
+.test_box #title1 {color: bisque;}
+.test_box #title2 {color: blue;}
+.test_box blockquote {color: blue;}
+.test_box p span {color: red;}
+.test_box p q {color: bisque;}
+.test_box p code {color: blue;}
+.test_box p sup {color: bisque;}
+.test_box p sub {color: blue;}
+.test_box .test1 {color:bisque;}
+.test_box .test2 {color: blue;}
+.test_box .test3 {color: bisque;}
+.test_box .test4 {color: blue;}
+.test_box #wrap {color:bisque;}
+.test_box a {color: red;}
