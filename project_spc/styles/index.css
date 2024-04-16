@@ -1,0 +1,44 @@
+main {
+    font-family: "Noto Sans KR", sans-serif;
+    text-align:center;}
+main h1{
+    font-size: 3.125rem;
+    font-weight: 700;
+    padding-bottom: 14px;}
+main > p {
+    font-size: 1rem;
+    font-weight: 300;
+    padding-bottom: 40px;}
+main .contents_bg {
+    background-color: #f5f5f5;
+    padding-top: 40px;}
+main .contents_bg .top_detail {}
+main .contents_bg .top_detail p {
+    padding-bottom: 30px;
+    line-height: 30px;
+    font-size: 1rem;
+    font-weight: 300;}
+main .contents_bg .middle_name {}
+main .contents_bg .middle_name h2 {
+    color: #36b4e5;
+    padding-top: 50px;
+    font-size: 1.875rem;
+    line-height: 45px;
+}
+main .contents_bg .middle_name h3 {
+    line-height: 145%;
+    font-size: 2.188rem;}
+main .contents_bg .btm_name h2 {
+    color: #36b4e5;
+    font-size: 1.875rem;
+    line-height: 45px;
+}
+main .contents_bg .btm_name h3 {
+    line-height: 145%;
+    font-size: 2.188rem;}
+main > p ,
+main .contents_bg .middle_name h3,
+main .contents_bg .middle_name h2 {
+    letter-spacing: -0.2px;}
+main h2 {padding-bottom: 30px;
+        padding-top: 80px;}
