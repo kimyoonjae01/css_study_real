@@ -7,6 +7,7 @@ h1 {color: aqua;}
 .test_box #title1 {color: bisque;}
 .test_box #title2 {color: blue;}
 .test_box blockquote {color: blue;}
+.test_box p {color: skyblue;}
 .test_box p span {color: red;}
 .test_box p q {color: bisque;}
 .test_box p code {color: blue;}
@@ -17,4 +18,22 @@ h1 {color: aqua;}
 .test_box .test3 {color: bisque;}
 .test_box .test4 {color: blue;}
 .test_box #wrap {color:bisque;}
-.test_box a {color: red;}
+header {background-color: red;}
+header h1 {color: blue;}
+header a {color: bisque;}
+.box a span {color: red;}
+.box .contents p {color: yellow;}
+main aside h2 {color: blue;}
+main aside ul {background-color: blue;}
+main aside ul li {color: red;}
+main aside ul .last {color: yellow;}
+main section .top {background-color: yellow;}
+main section .top h1 {background-color: blue;}
+main section .top p {background-color: bisque;}
+main section article {background-color: skyblue;}
+main section article p {color: bisque;}
+#t thead tr th {color: brown;}
+#t tbody tr td {color: blue;}
+#t tbody tr td span {color: yellow;}
+#t tfoot tr th {color: brown;}
+#t tfoot tr td em {color: yellow;}
