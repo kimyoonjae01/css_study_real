@@ -1,43 +1,62 @@
-/* css design */
-/* #top {background-color: aqua;}
-#top main {background-color: yellow;}
-#top main h1 {background-color: lime ;}
-#top main p {} */
-
-/* 선택자연습1 */
-/* .title {background-color: aqua;}
-.title h1 {color: blue;}
-.title .txt_srap {background-color: orange;}
-.title .txt_srap .txt_1 {background-color: red;}
-.title .txt_srap .txt_1 .sub_titke {color: yellow;}
-.title .txt_srap .txt_1 .name {color: green;} */
-
-/*  선택자연습-2 */
-/* #weather {background-color: beige;}
-#weather h1 {color: gray;}
-#weather .area {color: red;}
-#weather .temperature {color: darkturquoise;}
-#weather p {color: slateblue;}
-#weather .sub_title {color:violet;}
-#weather .humidity {color:  blue;}
-#weather .dust {color: brown;}
-#weather .result {color:yellow;} */
-
-/* 선택자연습-3 */
-#news {background-color: beige;}
-#news > a {background-color: darkgreen;}
-#news .box {background-color: rgb(255, 127, 80);}
-#news .box > a {background-color: red;}
-#news .box a h2 {background-color: burlywood;}
-#news .box a>p {background-color: yellowgreen;}
-#news p {background-color: orange;}
-
-/* 선택자 연습 - 4 */
-#papago {background-color: beige;}
-#papago nav {background-color: red;}
-#papago nav a {color: yellow;}
-#papago main {background-color: darkgray;}
-#papago main  h1 {background-color: deepskyblue;}
-#papago main  h1 a {color: salmon;}
-#papago main > a {color: blueviolet;}
-#papago > a{color: sienna;}
+/* #03c75a */
+main {
+    font-family: "noto sans kr", sans-serif;}
+main h1, main h1 span {
+    font-size: 3.125rem;
+    font-weight: 700;}
+main h1 {
+    line-height: 1.2;
+    letter-spacing: -0.4px;
+    padding-bottom: 48px;}
+main h1 span {color: #03c75a;}
+main p {letter-spacing: -0.4px;}
+main .first {
+    font-size: 1.5rem; 
+    line-height:1.2;
+    padding-bottom: 48px;}
+main .second {
+    font-size: 1.25rem;
+    line-height: 1.7;
+    padding-bottom: 50px;}
+main p .user {
+    font-size: 1.25rem;
+    color: #03c75a;}
+main p a {
+    font-size: 1.25rem;
+    text-decoration: underline;}
+main h2 {
+    font-size: 1.563rem;
+padding-bottom: 22px;}
+main h2 > span {font-size: 1.25rem;}
+main .list {
+    border-top: 3px solid #000; /* 상단 테이블 선 두께 */
+    width:930px} /* 너비 */
+main .list thead {
+    background-color: #f5f5f5;}
+main .list thead tr{}
+main .list thead tr th{}
+main .list tbody{/* 
+    border-top:1px solid #aaa ;
+    border-bottom:1px solid #aaa ; */
+    border: 1px solid #aaa;
+    border-left:0; border-right: 0;}
+main .list tbody tr{}
+main .list tbody tr td{}
+main .list tbody tr td em{}
+main .list thead tr .align,
+main .list tbody tr .align {text-align: center;} /* 정렬방식 */
+/* main .list tr .align {text-align: center;} 이것도 됌 */
+main .list tr * {padding-top:15px; padding-bottom: 15px;} /* * 은 전체선택자 */
+main .detail_view {
+    font-size: 1.25rem;
+    line-height: 24px;
+    padding-top: 11px;}
+main .btm {
+    padding-top: 130px; }
+main .btm a {width: 178px; height: 64px;
+    background-color: #03c75a;
+    border-radius: 30px;
+    display: block ;
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;}
