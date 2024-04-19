@@ -48,15 +48,21 @@ main .list tbody tr .align {text-align: center;} /* 정렬방식 */
 /* main .list tr .align {text-align: center;} 이것도 됌 */
 main .list tr * {padding-top:15px; padding-bottom: 15px;} /* * 은 전체선택자 */
 main .detail_view {
-    font-size: 1.25rem;
     line-height: 24px;
-    padding-top: 11px;}
+    padding-top: 11px;
+     /* a태그는 inline, block 특징을 모두 가질 수 있지만 고유한 기본 속성은 inline이기 때문에 표시속성 display명령으로 변경하지 않는 한 크기, 여백을 제대로 인식하지 못한다. */
+    width: 930px;/* a가 인라인일때 적용 안되는 속성 */
+    display: inline-block;  /* (위) (문제해결 block도 가능) */
+    text-align: right;
+    text-decoration: underline;}
 main .btm {
-    padding-top: 130px; }
-main .btm a {width: 178px; height: 64px;
+    padding-top: 130px; 
+    width: 930px;
+    text-align: center;}
+    main .btm a {width: 178px; /* height: 64px; */
     background-color: #03c75a;
     border-radius: 30px;
-    display: block ;
-    text-align: center;
+    line-height: 64px; /* 대신 들어간것 ( line-height 는 한 줄 일때 높이가 정해진 레이아웃에서 수직중앙으로 배치하고자 하는 경우 px를 사용해서 적용한다.*/
+    display: inline-block ;
     color: #fff;
-    padding-top: 20px;}
+    /* padding-top: 20px; */}

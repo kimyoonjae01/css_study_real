@@ -1,0 +1,41 @@
+main {font-family: "noto sans kr", sans-serif; text-align: center; width: 1024px;}
+main h1 {
+    font-size: 3.125rem;
+    font-weight: 700;
+    margin:0 0 39px;
+    }
+main h1 em {color: red; font-weight: 700;}
+/* main h1, main h1 em , main h2 {} */
+main h2 {
+    font-size: 1.563rem;
+    margin-bottom: 104px;}
+main .tt {
+    width: 924px;
+    border: 3px solid #000;
+    border-left: 0; border-right: 0;
+    margin-bottom: 37px;}
+main .tt thead {
+    background-color: #d9d9d9;
+    padding: 11px 0 ;
+}
+main .tt thead tr,main .tt tbody tr {}
+main .tt thead tr {}
+main .tt thead tr th {padding: 11px 0;
+    border: 1px solid #b4b4b4;
+    text-align: center;}
+main .tt tbody tr td {border: 1px solid #b4b4b4;}
+main .tt tbody tr td:nth-child(2) {font-weight: 700;}
+main .tt tbody tr td {padding: 8px;}
+main .tt tbody tr td .download{border:1px solid #ff0000;
+    width: 80px; height: 30px; display: inline-block;
+    border-radius: 30px;
+    padding: 8px 0; 
+    text-align: center;} /* 여기가 티바디에 다운로드 */
+main .tt tbody tr td .dawnload img{}
+main .tt a {
+    color: red;}
+main .a1 {color:white; width: 27px; 
+    text-align: center;
+    display: inline-block;background-color: red;
+    padding: 8px;}
+main .num a {margin-right: 41px; display:inline-block;}
