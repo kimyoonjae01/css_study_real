@@ -1,0 +1,54 @@
+main {font-family: "noto sans kr" sans-serif;
+width: 1024px;}
+main h1 {
+    font-size: 4.375rem;
+    font-weight: 900;
+    margin-bottom: 25px;
+    text-align: center;
+}
+main p {
+    font-size: 1.25rem;
+    margin-bottom: 57px;
+    margin-left: 262px;
+    letter-spacing: -2%;}
+main #login_frm {}
+main #login_frm fieldset {}
+main #login_frm fieldset legend {}
+main #login_frm fieldset h2 {
+    font-size:1.875rem;
+    font-weight:700;
+    margin-bottom: 18px;
+    margin-left: 262px;}
+main #login_frm fieldset input {/* width: 500px; 
+    height: 53px; 
+    margin-bottom: 38px;
+    border-radius: 10px;
+    border: 1px solid #aaa;
+    margin-left: 262px; */
+    padding: 15px 0 15px 15px;
+    letter-spacing: -2%;}
+main #login_frm fieldset input[type=text],main #login_frm fieldset input[required] {width: 500px; 
+    height: 53px; 
+    margin-bottom: 38px;
+    border-radius: 10px;
+    border: 1px solid #aaa;
+    margin-left: 262px}
+/* main #login_frm fieldset input[required] {} */
+main #login_frm fieldset .btn {}
+main #login_frm fieldset .btn #login_btn {background-color: #000; 
+    width: 500px; 
+    height: 53px; 
+    border-radius: 18px;
+    color: #fff;
+    margin-bottom: 18px;
+    margin-top: 32px;
+    margin-left: 262px;
+    border: 1px solid #aaa;}
+main #login_frm fieldset .btn #login_google_btn {
+    width: 500px; 
+    height: 53px; 
+    border-radius: 18px;
+    margin-left: 262px;
+    border: 1px solid #aaa;}
+main .join_link {color: #aaa; margin-left: 370px;}
+main .join_link a {font-weight: 700;}

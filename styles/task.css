@@ -1,0 +1,9 @@
+main {font-family: "noto sans kr" sans-serif;}
+main  table {border: 1px solid #fff;
+    background-color: #d9d9d9;}
+main  table thead{color: #fff ; font-size: 1.25rem;}
+main  table thead tr{background-color: #ff0066; }
+main  table thead tr th{border: 1px solid #fff;  text-align: center; padding-top: 17px; 
+    padding-bottom: 14px;}
+main  table tbody tr{}
+main  table tbody tr td{border: 1px solid #fff;}

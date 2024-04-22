@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./skyles/reset.css">
+    <link rel="stylesheet" href="./skyles/index.css">
+    <title>WELCOME</title>
+</head>
+<body>
+    <main>
+        <h1>Welcome back</h1>
+        <p>welcome back! please enter your detalis</p>
+        <form action="#" method="post" id="login_frm">
+            <fieldset>
+                <legend class="skip">로그인 양식</legend>
+                <h2>Email</h2>
+                <input type="text" placeholder="Enter your email or id" name="user_id" required>
+                <h2>Password</h2>
+                <input type="password" placeholder="Enter your password" name="user_pwd" required>
+                <h2>Forget password</h2>
+                <div class="btn">
+                    <button type="submit" id="login_btn">Login</button><br>
+                    <button type="submit" id="login_google_btn">Sign in with Google</button>
+                </div>
+            </fieldset>
+        </form>
+        <p class="join_link">
+            Don't have on account? <a href="#">Sign up for free</a>
+        </p>
+    </main>
+</body>
+</html>
