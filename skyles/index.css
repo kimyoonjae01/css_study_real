@@ -1,0 +1,63 @@
+main {font-family: "noto sans kr" sans-serif;
+width: 1024px;
+    background-color: aquamarine; 
+    margin: 0 auto;}
+main > * {width: 500px;
+    background-color: antiquewhite;
+    margin: 84px auto 0;}
+main h1 {
+    font-size: 4.375rem;
+    font-weight: 900;
+    margin-bottom: 25px;
+    /* text-align: center; */ /* ?? */
+    letter-spacing: 0.2px;
+}
+main p {
+    font-size: 1.25rem;
+    margin-bottom: 57px;
+    /* margin-left: 262px;   *//* ?? */
+    letter-spacing: -0.2px;}
+main #login_frm {background-color: aqua;}
+main #login_frm fieldset {}
+main #login_frm fieldset legend {}
+main #login_frm fieldset h2 {
+    font-size:1.875rem;
+    font-weight:700;
+    margin-bottom: 18px;
+    /* margin-left: 262px; */  /* ?? */
+    letter-spacing: -0.2px;}
+main #login_frm fieldset input {/* width: 500px; 
+    height: 53px; 
+    margin-bottom: 38px;
+    border-radius: 10px;
+    border: 1px solid #aaa;
+    margin-left: 262px; */
+    /* padding: 15px; */
+    letter-spacing: -2%;}
+main #login_frm fieldset input[type=text],main #login_frm fieldset input[required] {width: 100%; 
+    line-height: 53px; 
+    margin-bottom: 38px;
+    border-radius: 10px;
+    border: 1px solid #aaa;
+    /* color: #aaa; input 입력글자 색상 */}
+/* main #login_frm fieldset input[required] {} */
+main #login_frm fieldset input[name^=user]::placeholder {color: #ff0000;}
+main #login_frm fieldset .btn {}
+main #login_frm fieldset .btn #login_btn {background-color: #222; 
+    width: 100%; 
+    line-height: 53px; 
+    border-radius: 10px;
+    color: #fff;
+    margin-bottom: 18px;
+    margin-top: 32px;
+    /* margin-left: 262px; */
+    border: 1px solid #aaa;}
+main #login_frm fieldset .btn #login_google_btn {
+    width:100%; 
+    line-height: 53px; 
+    border-radius: 10px;
+    /* margin-left: 262px; */
+    border: 1px solid #aaa;}
+main .join_link {color: #aaa;/*  margin-left: 370px; */
+text-align: center;}
+main .join_link a {font-weight: 700;}

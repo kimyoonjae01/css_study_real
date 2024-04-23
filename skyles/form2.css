@@ -1,0 +1,82 @@
+main {
+    width: 1024px;
+    font-family: "noto sans kr" sans-serif;
+    background-color:#222;
+    margin:0px auto 0px;
+}
+main > * {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFF;
+}
+main h1{text-align: center;}
+main h1 a{}
+main h1 a img{
+    margin-top: 92px;
+    margin-bottom: 86.95px;
+}
+main .tab_title {
+    margin-bottom: 55px;
+    text-align: center;
+}
+main .tab_title .active {
+    border-bottom: 3px solid #1Ed760;
+    margin-right: 136px;
+}
+main .tab_title a {
+    font-size: 1.25rem;
+    letter-spacing:-0.2px;
+    color: #FFF;
+}
+main #sign_in_frm {
+    
+}
+main #sign_in_frm .in_group {}
+main #sign_in_frm .in_group .input {
+    
+}
+main #sign_in_frm .in_group .input input {
+    width: 100%;
+    line-height:73px;
+    border-radius:36.5px;
+    border:0;
+}
+main #sign_in_frm .in_group .input input[name*=name] {
+    margin-bottom:14px;
+}
+main #sign_in_frm .in_group .input input[name*=user]::placeholder {
+    padding-left:40px;
+    color: #aaa;
+    letter-spacing: -0.2px;
+}
+main #sign_in_frm .in_group .input input[name*=pwd] {
+    margin-bottom: 31px;
+}
+main #sign_in_frm .in_group .stay {
+    
+}
+main #sign_in_frm .in_group .stay input[name*=stay_sign] {display:none ;}
+main #sign_in_frm .in_group .stay label[for*=sign]{
+    background-image:url(/images/uncheck_box\ \(1\).svg);
+    background-repeat: no-repeat;
+    padding-left: 34px;
+}
+main #sign_in_frm .in_group .stay input[name*=stay]:checked+label {
+    background-image:url(/images/check_box.svg);
+}
+main #sign_in_frm .in_group .stay #stay_sign_in_y label {
+}
+main #sign_in_frm .in_group .btn {}
+main #sign_in_frm .in_group .btn #sign_in_btn {
+    width: 100%;
+    height: 73px;
+    border-radius: 36.5px;
+    background-color: #1Ed760;
+    border: none;
+    color: #fff;
+    margin-bottom: 14px;
+    margin-top: 33px;
+}
+main .forget_pw {display:block;
+width: 100%; text-align: center;}

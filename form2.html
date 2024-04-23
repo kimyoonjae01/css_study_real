@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./skyles/reset.css">
+    <link rel="stylesheet" href="./skyles/form2.css">
+    <title>login|Spotify</title>
+</head>
+<body>
+    <main>
+        <h1><a href="#"><img src="/images/Logo.svg.svg" alt="#"></a></h1>
+        <div class="tab_title">
+            <a href="#" class="active">SIGN IN</a>
+            <a href="#">SIGN UP</a>
+        </div>
+        <form action="#" method="post" id="sign_in_frm">
+            <fieldset class="in_group">
+                <legend class="skip">로그인양식</legend>
+                <div class="input"> <!-- 아이디,비밀번호 창 -->
+                    <input type="text" name="user_name" placeholder="Username"> <br>
+                    <input type="password" name="user_pwd" placeholder="Password">
+                </div>
+                <p class="stay">
+                    <input type="checkbox" name="stay_sign" value="stay_sign_in_y" id="stay_sign_in_y">
+                    <label for="stay_sign_in_y">stay signed in</label>
+                </p>
+                <p class="btn">
+                    <button type="submit" id="sign_in_btn">SIGN IN</button>
+                </p>
+            </fieldset>
+        </form>
+        <a href="#" class="forget_pw">Forget Password?</a>
+    </main>
+</body>
+</html>

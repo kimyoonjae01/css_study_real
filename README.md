@@ -56,3 +56,40 @@
 * RGBA(RED,GREEN,BLUE, ALPHA) *최대색상255
 ## 글꼴태그
 * `padding` 태그와 태그간의 거리 / 속성 top or bottom
+## box Css
+### display
+* `block, inilnem inilne-block`
+* `block` : 새로운 행, 크기, 여백 인식
+* `inline` : 내용만큼 크기 인식 (그 외 크기인식 불가능)
+* `inline-block` : 내용만큼 크기 인식 (크기 추가설정가능)
+### box-sizing
+* `box-sizing:border-box`
+* 요소의 너비와 높이를 계산할 때 테두리, 여백(padding)까지 포함해서 계산하는 속성 
+* 속성 미적용 시 : w100+h100+padding`top20 = 100x120
+* 속성 적용 시 : w100+h100+padding`top20 = 100x100
+### wudth, height
+* 요소의 너비와 높이
+* 절대값px, 상대값%, 화면 상대값 vw, vh
+* 상대값 처리는 0~100% 사이 값만 사용한다.
+## form 요소와 속성
+### `<form action="#" method=""></form>`
+* action : 폼 내부에 데이터를 보내는 목적지 url을 지정한다.
+* method : 폼을 서버로 전송하는 http 방식을 지정. POST와 GET이 있다.
+* fieldset, legend : ex) fieldset : form 내부에서 관계된 요소들끼리 묶어주며 그룹화 하는데 그룹화 된 주위에 얇은 테두리를 이용하여 박스를 그린다. ex)fieldset에 제목을 달아주는 역할을 한다. 이러한 폼 요소들의 그룹화는 스크립트에서 접근 시 보다 용이하게 만들어주며 사용자의 접근성 또한 높여준다.
+### `<input type="">`
+* type : 속성 값을 입력할 수 있음 ex) `input type="name , text , time , search, url"` 등
+* name : 어떤 것에 쓰이는지  알 수 있음 ex) `input type="text" name="user_name"` 등
+* readinly : 읽기 전용, 웹사이트 방문자가 바꿀 수 없다
+* autofocus, autocomplete : ex) 구글 메인이미지 접속시 마우스커서를 안눌러도 자동으로 검색폼 누를 수 있는 기능, ex) 그동안 썻던 검색기록을 볼 수 있는 기능
+* value : 초기값 지정. ex) 번호 입력시 010자동으로 입력 되있는 값
+* placeholder : 아이디나 비밀번호 적는 창에 "id를 입력해주세요" 라는 문구가 나와있지만 클릭하면 사라지는 기능
+* value와 placeholder의 차이점 : value는 초기값을 지정해주는 것, placeholder 는 누르면 사라짐
+* maxlength : 쓸 수 있는 글자의 수를 지정해두는 것 ex) 비밀번호는 10자 이상 쓰면 안된다. > maxlength="10"
+### `<textarea></textarea>`
+* rows, cols : ex) rows="3" > 한번에 3줄이 보이게 함 , ex) cols="50" 한 줄에 50개의 글자가 보이게 함
+* 사용용도 및 주의사항 : 약관내용으로 자주 사용하지 않음, 고객 리뷰같은 페이지에 쓰는 듯?
+### input의 입력양식과 선택양식
+* text, url 등의 사용자가 직접 입력가능한 입력양식
+* radio 등의 사용자의 입력이 아닌 선택으로 들어가는 선택양식
+* `name` : 입력양식(데이터구분용) , 선택양식(데이터구분 (개별데이터X,그룹데이터구분용)) / value="userMailAgreeY" , "userMailAgreeN" 으로 벨류값 따로 지정하면 됌
+* `value` : 입력양식(초기값), 선택양식 (개별데이터구분용)
