@@ -93,3 +93,13 @@
 * radio 등의 사용자의 입력이 아닌 선택으로 들어가는 선택양식
 * `name` : 입력양식(데이터구분용) , 선택양식(데이터구분 (개별데이터X,그룹데이터구분용)) / value="userMailAgreeY" , "userMailAgreeN" 으로 벨류값 따로 지정하면 됌
 * `value` : 입력양식(초기값), 선택양식 (개별데이터구분용)
+## float 
+* float 속성을 넣으면 부모의 밖으로 자식이 나가버림
+### float 해결법
+* 자식에 float 적용함으로써 생기는 부모인식 오류 해결 
+* 해결법 1. 크기를 직접 적용한다 
+* `.box {height: 100px;} `
+* 해결법 2. 자식 포함 크기 재인식 속성 
+* `overflow:hidden;`
+* 해결법 3.가상요소 생성 
+* `.box::after {clear: both; content:"a"; display: block;}`

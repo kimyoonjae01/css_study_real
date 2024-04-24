@@ -1,0 +1,79 @@
+html {scrollbar-width: 5px;;scrollbar-color: #d9d9d9;}
+        ::-webkit-scrollbar {width: 10px; height: 80px; padding: 10px 10px;}/*스크롤바 크기*/
+        ::-webkit-scrollbar-thumb {background-color: #d9d9d9;border-radius: 5px; width: 10px; height: 80px; }/*스크롤 드래그바*/
+        ::-webkit-scrollbar-thumb:hover {background-color: #131313;}
+
+main  {
+    font-family: "Noto Sans KR" sans-serif;
+    width: 1024px;
+    background-color: #f5f5f5;
+    margin:auto;
+}
+main > * {width: 1024px;
+    margin: 41px auto;
+}
+main h1 {text-align: center;}
+main h1 a {}
+main h1 a img {text-align: center; }
+main .law {
+    width: 612px;
+    height: 200px;
+    padding: 10px 20px 0 10px;
+    overflow-y: auto;
+    background-color: #FFF;
+}
+main .law h2 {
+    font-size: 0.75rem;
+    line-height: 160%;
+    letter-spacing: -0.2px;
+    margin-bottom: 46px;
+}
+main .law h3 {
+    font-size: 0.75rem;
+    line-height: 160%;
+    letter-spacing: -0.2px;
+    margin-bottom: 10px;
+}
+main .law p {
+    font-size: 0.75rem;
+    line-height: 160%;
+    letter-spacing: -0.2px;
+    margin-bottom: 27px;
+}
+
+main #join_frm {
+    width: 612px;
+    background-color: #9E00B7;
+}
+main #join_frm .user_info {background-color: aqua;
+    margin-top: 54px;
+    
+}
+main #join_frm .user_info dl {
+
+}
+main #join_frm .user_info dl dt {
+    float: left;
+    width: 156px;
+}
+main #join_frm .user_info dl dd {
+}
+main #join_frm .user_info dl dd input {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #aaa;
+}
+main #join_frm .user_info dl dd button {
+    width: 120px;
+    height: 40px;
+    background-color: #9E00B7;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+}
+main #join_frm .user_info dl dd select {}
+main #join_frm .user_info dl dd select option {}
+main #join_frm .user_info dl dd span {}
+main #join_frm .user_info .join_btn {}
+main #join_frm .user_info .join_btn button{}

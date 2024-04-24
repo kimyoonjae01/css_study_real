@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/project_from/skyles/reset.css">
+    <title>0424</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <h1>
+        <form action="#" method="post" id="testfrm">
+            <fieldset class="select">
+                <legend class="skip">선택양식</legend>
+                <di>
+                    <dt>성별</dt>
+                    <dd>선택양식 중 하나만 선택 가능, 무조건 최소 1개가 선택되어야 하는 경우</dd>
+                    <dd>
+                        <label>
+                            <input type="radio" name="gender" value="male">
+                            <span>남자</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="gender" value="female" checked="checked">
+                            <span>여자</span>
+                        </label>
+                        <!-- input과 label이 형제인 경우 -->
+                        <!-- input:checkd+label -> background-image -->
+                        <!-- input과 label이 부모-자식 인 경우 -->
+                        <!-- label은 부모기 때문에 대상으로 불가능함 -->
+                        <!-- 태그 추가 생성으로 구성 -->
+                        <!-- input:checked+span -> background-image -->
+                    </dd>
+                    <dt>관심사(2개 이상 선택)</dt>
+                    <dd>
+                        <input type="checkbox" name="job" id="web_planner" value="web_planner" checked="checked">
+                        <label for="web_planner">웹기획자</label>
+                        <input type="checkbox" name="job" id="web_designer" value="web_designer">
+                        <label for="web_designer">웹디자이너</label>
+                        <input type="checkbox" name="job" id="web Publisher" value="web_Publisher" checked="checked">
+                        <label for="web Publisher">웹퍼블리셔</label>
+                        <input type="checkbox" name="job" id="front_and_developers" value="front_and_developers">
+                        <label for="front_and_developers">프론트엔드 개발자</label>
+                        <input type="checkbox" name="job" id="back_and_developers" value="back_and_developers">
+                        <label for="back_and_developers">백앤드 개발자</label>
+                    </dd>
+                    <dt>생일</dt>
+                    <dd>
+                        <select name="month">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select><span>월</span> <!-- 이것만 잡으려면 select[name=month] + span {} -->
+                        <select name="day">
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                        </select><span>일</span> <!-- <- 이것만 잡으려면 select[name=day] + span {} -->
+                    </dd>
+                </di>
+            </fieldset>
+            <fieldset class="btn">
+                <legend calss="skip">버튼</legend>
+                <input type="submit" value="전송,확인">
+                <button type="submit" id="login_btn">전송, 확인</button>
+                <button type="reset" id="reset_btn">취소, 삭제</button>
+                <button type="button" id="all_around_btn">범용특징버튼</button>
+                <hr>
+                <input type="file">
+            </fieldset>
+        </form>
+    </h1>
+</body>
+</html>
