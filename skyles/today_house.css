@@ -1,0 +1,184 @@
+main {font-family: "noto sans kr", sans-serif;
+width: 400px;
+margin: 0px auto;}
+main > * {width: 360px;
+margin: auto;}
+main h1 {
+    margin-top: 30px;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+main p {
+    font-size: 0.75rem;
+    color: #7e7e7e;
+    text-align: center;
+    margin-bottom: 20px;
+}
+main .logo {text-align: center;
+    padding-bottom: 20px;
+border-bottom:1px solid #aaa ;}
+main .logo a {}
+main .logo a img {
+    display: inline-block;
+    padding-right: 30px;
+}
+main #join_frm {}
+main #join_frm .user_info {}
+main #join_frm .user_info dl {overflow: hidden;}
+main #join_frm .user_info dl dt {
+    font-size: 0.875rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+main #join_frm .user_info dl input {
+    width: 166px;
+    height: 40px;
+    border: 1px solid #aaa;
+    padding: 0 0 0 15px;
+}
+main #join_frm .user_info dl dd {
+    margin-bottom: 20px;
+    font-size: 0.75rem;
+    color: #7e7e7e;
+}
+main #join_frm .user_info dl dd span {padding: 0 2px;}
+main #join_frm .user_info dl select {
+    width: 166px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+main #join_frm .user_info dl dd #email_in {
+    width: 360px;
+    height: 50px;
+    background-color: d9d9d9;
+    color: #aaa;
+    border: 1px solid #aaa;
+    margin-bottom: 20px;
+}
+main #join_frm .user_info dl dd #email_in span {
+    color: #5c5c5c;
+    font-weight: 700;
+}
+main #join_frm .user_info dl dd input[name^=user] {
+    width: 360px;}
+main #join_frm .user_info dl select option {} /* 그림바꿔야함 */
+main #join_frm .terms_agreement {}
+main #join_frm .terms_agreement h2 {
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+main #join_frm .terms_agreement .agreement {
+    border: 1px solid #aaa;
+    padding: 20px 20px 0 ;
+}
+main #join_frm .terms_agreement .agreement .all {
+    border-bottom:1px solid #aaa;
+    padding-bottom:19px ;
+}
+main #join_frm .terms_agreement .agreement .all #all_check {}
+main #join_frm .terms_agreement .agreement .all label {}
+main #join_frm .terms_agreement .agreement .all label span {
+    font-size: 0.625rem;
+    color: #757575;
+}
+main #join_frm .terms_agreement .agreement .all label em {
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+main #join_frm .terms_agreement .agreement_1 {
+    margin-bottom: 26px;
+    margin-top: 20px;
+}
+main #join_frm .terms_agreement .agreement_1 #old_check {}
+main #join_frm .terms_agreement .agreement_1 label {
+    font-size: 0.625rem;
+}
+main #join_frm .terms_agreement .agreement_1 label em {
+    color: #85E2FF;
+    font-weight: 700;
+    font-size: 0.625rem;
+}
+main #join_frm .terms_agreement .agreement_2 {
+    margin-bottom: 20px;
+}
+main #join_frm .terms_agreement .agreement_2 #user_check {}
+main #join_frm .terms_agreement .agreement_2 label {
+    font-size: 0.625rem;
+}
+main #join_frm .terms_agreement .agreement_2 label a {
+    margin-left: 210px;
+}
+main #join_frm .terms_agreement .agreement_2 label em {
+    color: #85E2FF;
+    font-weight: 700;
+    font-size: 0.625rem;
+}
+main #join_frm .terms_agreement .agreement_3 {
+    font-size: 0.625rem;
+    margin-bottom: 26px;
+}
+main #join_frm .terms_agreement .agreement_3 #information_check {}
+main #join_frm .terms_agreement .agreement_3 label em {
+    color: #85E2FF;
+    font-weight: 700;
+    font-size: 0.625rem;
+}
+main #join_frm .terms_agreement .agreement_3 label a {
+    margin-left: 142px;
+}
+main #join_frm .terms_agreement .agreement_4 {
+    margin-bottom: 26px;
+}
+main #join_frm .terms_agreement .agreement_4 #marketing_check {}
+main #join_frm .terms_agreement .agreement_4 label {
+    font-size: 0.625rem;
+}
+main #join_frm .terms_agreement .agreement_4 label span {
+    color: #7e7e7e;
+    font-size: 0.625rem;
+}
+main #join_frm .terms_agreement .agreement_4 label a {
+    margin-left: 142px;
+}
+main #join_frm .terms_agreement .agreement_5 {
+    margin-bottom:23px ;
+}
+main #join_frm .terms_agreement .agreement_5 #evnet_check {}
+main #join_frm .terms_agreement .agreement_5 label {
+    font-size: 0.625rem;
+}
+main #join_frm .terms_agreement .agreement_5 label span {
+    color: #7e7e7e;
+    font-size: 0.625rem;
+}
+main #join_frm .result {}
+main #join_frm .result #join_btn {
+    width: 360px;
+    height: 40px;
+    background-color: #50CAFF;
+    color: #FFF;
+    margin-bottom: 20px;
+    border: none;
+    margin-top: 20px;
+}
+main #join_frm .result p {
+    font-size: 0.75rem;
+}
+main #join_frm .result p a {
+    font-weight: 700;
+    font-size: 0.75rem;
+    border-bottom: 1px solid #000;
+}
+
+main #join_frm .terms_agreement .agreement input {display: none;}
+main #join_frm .terms_agreement .agreement label[for*=check] {
+    background-image: url(../images/home_un.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    padding-bottom: 5px;
+}
+main #join_frm .terms_agreement .agreement input[name*=user]:checked+label {
+    background-image: url(../images/home_ch_1.png);
+    background-repeat: no-repeat;
+}
