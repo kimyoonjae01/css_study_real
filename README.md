@@ -102,4 +102,37 @@
 * 해결법 2. 자식 포함 크기 재인식 속성 
 * `overflow:hidden;`
 * 해결법 3.가상요소 생성 
-* `.box::after {clear: both; content:"a"; display: block;}`
+* `.box::after {clear: both; content:"a"; display: block;`
+## css layout
+### float,flex
+* `float` : 형제 관계에 해당하는 block or inline tag 왼쪽,오른쪽 정렬할 때 사용
+* ex - ul -li*3개 정렬 `ul li {float:left;}`
+* `flex` : 정렬하고자 하는 아이템의 부모한테 flex를 먼저 설정한다.
+* ex - ul - li*3개 정렬 `ul {display:flex}`
+* flex 설정 시 **기본값** : 메인축(수평) 교차축(수직)
+* `display:flex` : 정렬대상의 부모 설정 속성값 , 설정 시 해당 부모 기준 자식까지(자손X) flexible box layout 으로 처리하겠다.
+### 부모에게 주는 flex 속성
+* `flex-flow` : raw,column , wrap,nowrap 수평,수직 - 줄바꿈,줄바꿈X
+### `justtify-content` : 속성값
+* `flex-start` - items의 시작점 부모의 시작점으로 정렬
+* `flex-end` - 부모의 끝점으로 정렬 / 동일방법 센터는 부모의 가운데 정렬
+* `space-between` - 부모의 시작점과 끝점에 items를 하나씩 배치 후 균등정렬
+* `space-around` - 부모 안에서 균등정렬 
+###  `align-content ` : 속성값 / 두줄일 때 / flex-wrap:wrap 적용한 상태
+* `stretch` : 기본값
+* `flex-start` : 부모의 start 기준 아이템 정렬
+* `flex-end` : 부모의 end 기준 아이템 정렬 /동일방법 센터 가운데 정렬
+* `space-between` : 부모의 start,end 양쪽 끝 맞추고 균등하게 정렬
+* `space-around` : 부모 안에서 아이템 균등 정렬
+### `align-items` : 한줄 일 때 정렬 방법 태그 / align-content와 속성 같음7
+### `align-self` : item에 적용하는 속성 `align-items보다 우선순위 높음 
+* `flex-start` : 교차축 기준 부모의 start의 시작위치 top or left
+* `flex-end` : 교차죽 기준 부모의 end종료위치 bottom or rlght
+* `flex-center` : 교차죽 기준 부모의 가운데 위치 
+### `order` : 아이템의 정렬순서 설정
+* 개별 아이템 위치에 적용
+* `order` : 값 숫자 작은 순서대로 순서대로 배치됨 
+### `flex` : 
+* 처음 쓰는 grow 뜻 : flex:1; 아이템들의 너비를 1비율로 설정한다 ex) 1:1:1
+  개별로 설정할 경우 부모한테 flex:1; 적용 후 개별 아이템 css에서 2번째 아이템한테 flex:2; 를 준다면 비율은 1:2:1이 된다. 
+

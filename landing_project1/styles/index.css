@@ -1,0 +1,141 @@
+main {}
+/* 배경 공통&개별값 */
+main .bg {
+    background-position: center;
+    background-repeat: no-repeat;
+}
+main .bg1 {
+    background-image: url(../img/bg.jpg);
+    height: 1001px;
+}
+main .bg2 {
+    background-image: url(../img/bg_2.jpg);
+    height: 500px;
+}
+/* ----- 1. 표지 ----- */
+main .bg1 section {
+    width: 1250px;
+    margin: 0 auto;/* - 좌우 오토로 맞춰서 가운데로 오게 하는방법 -*/
+}
+main .bg1 section h1 {}
+main .bg1 section h1 a {}
+main .bg1 section h1 a img {}
+main .bg1 section h2 {
+    font-size: 4.375rem;
+    color: #fff;
+    text-align: center;
+    margin: 143px 0 42px;
+    letter-spacing: -0.2px; /* - 피그마 기준 -2 - */
+    line-height: 120%; /* - 값 : 1.2 or 120% - */
+}
+main .bg1 section h2 em {font-weight: 700;}
+main .bg1 section .sponsor_link::after { 
+    content:"";
+    background-image: url(../img/btn_right_arrow.svg);
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+main .bg1 section .sponsor_link {
+    /* 배경에 그라디언트 속성 주는법 */
+    /* #FE9300, FF7300 */
+    /* css 회전각도 단위 deg */
+    background: linear-gradient(90deg,#fe9300, #ff7300);
+    /* greadient 적용을 위해 background 통합 속성을 사용 했을 때 해당 요소 추가 배경이미지 꾸미기를 원한다면 가상선택자 (before, after) 를 활용하는 것을 권장한다.*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 409px; 
+    height: 71px;
+    margin: 0 auto; /* 가운데로 보내기(display : block) 을 넣어서 가능 */
+/*     text-align: center;
+    line-height: 71px; */
+    border-radius: 50px;
+    font-size: 2.125rem;
+    font-weight: 700;
+    color: #fff;
+}
+main .bg1 section .sponsor_question {
+    background-color: #050505;
+    color: #fff;
+    width: 439px;
+    height: 51px;
+    /* line-height: 51px; */
+    border-radius: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    float: right;
+    margin-top: 189px;
+    font-size: 1.625rem;
+}
+main .bg1 section .sponsor_question::before,
+main .bg1 section .sponsor_question::after {
+    /* 동일 값 */
+    content: "";
+    background-repeat: no-repeat;
+    display: inline-block; /* 옆으로 인식 , 인라인으로 인식하기 */
+    width: 24px;
+    height: 24px;
+    background-size: 24px 24px;
+}
+main .bg1 section .sponsor_question::before {
+    background-image: url(../img/icon_sms.svg);
+    margin-right: 10px;
+}
+main .bg1 section .sponsor_question::after {
+    background-image: url(../img/btn_right_arrow.svg);
+    margin-left: 10px;
+}
+/* ----- 2. 퀴즈 -----*/
+main .bg2 section {
+    width: 1250px;
+    margin: 0 auto;
+    color: #fff;
+    background-color: aquamarine;
+}
+main .bg2 section #quiz_frm {}
+main .bg2 section #quiz_frm h2 {
+    font-size: 3.483rem;
+    font-weight: 600;
+    margin-bottom: 38px;
+    margin-left: 206px;
+}
+main .bg2 section #quiz_frm p {
+    font-size: 1.25rem;
+    margin-bottom: 13px;
+}
+main .bg2 section #quiz_frm .quiz_list {}
+main .bg2 section #quiz_frm .quiz_list li {
+    margin-bottom: 20px;
+    line-height: 170%;
+    font-size: 1.25rem;
+}
+main .bg2 section #quiz_frm .quiz_list li input[type=radio] {
+    display: none;
+    padding-bottom: 20px;
+}
+main .bg2 section #quiz_frm .quiz_list li input[name^=quiz]:checked + label {
+    background-image: url(../img/quiz_checked.svg);
+    background-repeat: no-repeat;
+    padding-left: 48px;
+}
+main .bg2 section #quiz_frm .quiz_list li label {
+    background-image: url(../img/quiz_uncheck.svg);
+    background-repeat: no-repeat;
+    padding-left: 48px;
+    background-color: #fe9300;
+}
+main .bg2 section .quiz_1 p button {
+    width: 450px;
+    height: 39px;
+    border-radius: 50px;
+    border: none;
+    background-color: #050505;
+    color:#fff;
+}
+main .bg2 section .quiz_participation {
+    float: right;
+}
