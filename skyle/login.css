@@ -1,0 +1,29 @@
+#app {
+    width: 375px;
+    height: 812px;
+    border: 1px solid black;
+    margin: 30px auto 0;
+    padding-top: ?;
+}
+#app header {
+    border: 1px solid black;
+    display: flex;
+    padding: 0 16px;
+    height: 56px;
+}
+#app header .left {}
+#app header .left a {
+    background-color: gray;
+    width: 24px;
+    height: 24px;
+}
+#app main h1 {}
+#app main h1 a {}
+#app main .login_keybord {}
+#app main .login_keybord a {}
+#app main #login_form {}
+#app main #login_form[name=id_form] {}
+#app main #login_form[name=pw_form] {}
+#app main #login_form button {}
+#app main .find {}
+#app main .find a {}

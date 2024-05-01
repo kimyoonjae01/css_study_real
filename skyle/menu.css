@@ -1,0 +1,83 @@
+#app {
+    width: 375px;
+    height: 812px;
+    border: 1px solid black;
+    margin: 30px auto 0;
+    padding:42px 0 ;
+}
+#app header {
+    border: 1px solid black;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    justify-content: space-between;
+}
+#app header .left {}
+#app header .left h1 {
+    font-size: 1.25rem;
+}
+#app header .right {
+    display: flex;
+}
+#app header .right a {
+    width: 24px;
+    height: 24px;
+    background-color: gray;
+    display: flex;
+    margin-left:16px ;
+}
+#app main {
+    height: 659px;
+}
+#app main .adver1 {
+    height: 80px;
+    background-color: gray;
+    border: 1px solid black;
+}
+#app main h1 {
+    font-size: 1.25rem;
+    padding: 37px 0 25px;
+}
+#app main h1 em {
+    font-weight: 700;
+    border-bottom: 1px solid black;
+}
+#app main .category {
+    margin: 0 16px;
+    border: 1px solid black;
+    height: 144px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content:space-between;
+}
+#app main .category a {
+    width: calc(100% / 4);
+    height: 42px;
+    background-color: gray;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 10px 0;
+    /* padding: 0 21px;  이거아직모름 ㅜㅠㅜ*/
+    justify-content:space-between;
+}
+#app main .category a img {}
+#app main .category a span {
+}
+#app main .notice {}
+#app main .notice img {}
+#app main .notice a {}
+#app main .adver2 {}
+#app main .service_wrap {}
+#app main .service_wrap .top {}
+#app main .service_wrap .top h2 {}
+#app main .service_wrap .top a {}
+#app main .service_wrap .top a img {}
+#app main .service_wrap .top a span {}
+#app main .service_wrap .news {}
+#app main .service_wrap .news h2 {}
+#app main .service_wrap .news_category {}
+#app main .service_wrap .news_category a {}
+#app main .service_wrap .news_category a span {}
