@@ -3,49 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./skyle/reset.css">
-    <link rel="stylesheet" href="./skyle/index.css">
-    <title>네이버</title>
+    <meta name="keywords" contnet="">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <style>
+        .bg {
+            height: 400px;
+            background-color: #FFCACA;
+            padding-top: 60px;
+            text-align: center;
+        }
+        .bg .lang {
+            font-size: 1.875rem;
+            font-weight: 600;
+        }
+        .bg h1 {
+            font-size: 1.875rem;
+            font-weight: 700;
+            color: #FFF;
+        }
+        .bg .date {
+            font-size: 1.25rem;
+        }
+        .list {
+            padding: 10px;
+            width: 630px;
+            margin: 20px auto 0;
+            flex-flow: row wrap;
+            display: flex;
+        }
+        .list a {
+            width: calc((100% - 10px) / 2);
+            border-bottom: 1px solid black;
+            text-align: center;
+            padding: 16px 12px;
+        }
+        .list a:nth-child(odd) {
+            margin-right: 10px;
+        }
+    </style>
+    <title>김윤재 | 프로젝트 모음</title>
 </head>
 <body>
-    <div id="app">
-        <!-- 스테이더스바 -->
-        <header>
-            <div class="left">
-                <a href="#" class="all_nav"></a>
-                <a href="#" class="pay"></a>
-            </div>
-            <div class="right">
-                <a href="#" class="chat"></a>
-                <a href="#" class="alarm"></a>
-                <a href="#" class="my_page"></a>
-            </div>
-        </header>
-    <main>
-        <form action="#" method="get" id="search_frm">
-            <fieldset class="search_g">
-                <legend class="skip">검색</legend>
-                <img src="" alt="logo">
-                <input type="search" name="search_txt">
-                <button type="submit" id="search_btn">
-                    <img src="" alt="검색하기">
-                </button>
-            </fieldset>
-        </form>
-        <div class="adver adver1"></div>
-        <div class="adver adver2"></div>
-        <ul class="weather_g">
-            <li></li>
-            <li></li>
-        </ul>
-        <div class="blog_g"></div>
-    </main>
-    <nav>
-        <a href="#"><img src="" alt=""><span>쇼핑</span></a>
-        <a href="#"><img src="" alt=""><span>홈</span></a>
-        <a href="#"><img src="" alt=""><span>콘텐츠</span></a>
-        <a href="#"><img src="" alt=""><span>클립</span></a>
-    </nav>
+    <div class="bg">
+        <p class="lang">HTML , CSS</p>
+        <h1>김윤재 프로젝트</h1>
+        <p class="date">24.03.19 ~ 24.08.02</p>
+    </div>
+    <div class="list">
+        <a href="./project_spc/index.html" target="_blank">SPC 삼립 24/04/17</a>
+        <a href="./landing_project1/index.html" target="_blank">북극곰-랜딩페이지 24/04/30</a>
+        <a href="./naver_login/index.html" target="_blank">네이버 로그인 24/05/02</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">7</a>
+        <a href="#">8</a>
+        <a href="#">9</a>
+        <a href="#">10</a>
     </div>
 </body>
 </html>
