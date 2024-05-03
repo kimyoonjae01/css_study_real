@@ -135,4 +135,12 @@
 ### `flex` : 
 * 처음 쓰는 grow 뜻 : flex:1; 아이템들의 너비를 1비율로 설정한다 ex) 1:1:1
   개별로 설정할 경우 부모한테 flex:1; 적용 후 개별 아이템 css에서 2번째 아이템한테 flex:2; 를 준다면 비율은 1:2:1이 된다. 
+## font-awesome 사용법
+### css awsome font */
+* font-awesome CDn link 로 준비한다 */
+* awesome 전용의 font-family와 weight를 설정한다. */
+* awesome 적용 될 태그를 준비한다. */
+* 준비한 3번 태그에 가장선택자 (after of before) 를 작성한다. */
+* 가상 선택자에 content속성을 입력해서 Unicode를 삽입한다. */
+### html font awesome
 
