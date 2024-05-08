@@ -1,0 +1,186 @@
+main {
+    font-family: "noto sans kr", sans-serif;
+}
+main .bg {
+    background-position:center;
+    background-repeat: no-repeat;
+}
+main .bg1 {
+    background-image:url(../img/bg1.jpg);
+    height: 849px;
+}
+main .bg2 {
+    background-image: url(../img/bg2.jpg);
+    height: 500px;
+}
+/* 배경 공통 / 개별 값 */
+main section {margin: 0 auto; width: 1250px;}
+/* 표지 1 */
+main .bg1 section {
+    width: 1250px;
+    margin: 0 auto;
+}
+main .bg1 section h1 {
+    padding-top: 30px;
+    margin-bottom: 108px;
+}
+main .bg1 section h1 a {}
+main .bg1 section h1 a img {}
+main .bg1 section h2 {
+    font-size: 4.375rem;
+    text-align: center;
+    line-height: 120%;
+    margin-bottom: 90px;
+    letter-spacing: -2px;
+}
+main .bg1 section h2 em {
+    font-weight: 700;
+}
+main .bg1 section .app_down {
+    background-color:#000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 254px;
+    height: 77px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 2.125rem;
+    font-weight: 700;
+}
+main .bg1 section .app_down::after {
+    background-image: url(../img/btn_right_arrow.svg);
+    content: "";
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+}
+/* 표지2 */
+main .bg2 section {
+    width: 1250px;
+    margin: 0 auto;
+}
+main .bg2 section .ux {
+    float: left;
+    display: flex;
+    
+}
+main .bg2 section .ux img {
+    margin-top: 34px;
+}
+main .bg2 section .ux .h2p h2 {
+    font-size: 2.688rem;
+    font-weight: 700;
+    display: inline-block;
+    margin: 63px 0 86px 32px;
+    line-height: 130%;
+}
+main .bg2 section .ux .h2p p {
+    font-size: 1.625rem;
+    margin-left: 32px ;
+    line-height: 130%;
+}
+main .bg2  section #event_form {
+    float: right;
+}
+main .bg2 section #event_form .quiz {}
+main .bg2 section #event_form h2 {
+    font-size: 2.688rem;
+    font-weight: 600;
+    padding: 64px 83px 17px 0;
+}
+main .bg2 section #event_form h2 em {
+    color: #ff0000;
+    font-weight: 600;
+}
+main .bg2 section #event_form p {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 28px;
+}
+main .bg2 section #event_form p span {
+    font-size: 1rem;
+    font-weight: 400;
+}
+main .bg2 section #event_form .quiz {
+}
+main .bg2 section #event_form .quiz_event {}
+main .bg2 section #event_form .quiz_event li {
+    font-size: 1.25rem;
+    padding-bottom: 30px;
+}
+main .bg2 section #event_form .quiz_event li input[type=radio] {
+    display: none;
+}
+main .bg2 section #event_form .quiz_event li input[name*=quiz]:checked + label {
+    background-image: url(../img/check.png);
+    background-repeat: no-repeat;
+}
+main .bg2 section #event_form .quiz_event li label {
+    background-image: url(../img/uncheck.png);
+    background-repeat: no-repeat;
+    padding-left: 42px;
+}
+main .bg2 section #event_form .quiz .button_div {
+}
+main .bg2 section #event_form .quiz .button_div .complete {
+    text-align: center;
+}
+main .bg2 section #event_form .quiz .button_div .complete #complete_btn {
+    display:block;
+    width: 119px;
+    height: 51px;
+    border-radius: 50px;
+    border: 1px solid #a5a5a5;  
+    background-color: #ffe934;
+    margin: 34px auto 0;
+}
+main .bg3 {
+    background-image: url(../img/bg3.jpg);
+    height: 1280px;
+}
+main .bg3 h2 {
+    font-size: 3.125rem;
+    font-weight: 600;
+    padding: 221px 250px 0 825px;
+}
+main .bg3 h3 {
+    font-size: 1.875rem;
+    font-weight: 600;
+    color: #454545;
+    padding: 487px 322px 299px 1054px;
+}
+main .bg4 {
+    background-image: url(../img/bg4.png);
+    height: 1021px;
+}
+main .bg4 h2 {
+    font-size: 4.375rem;
+    font-weight: 600;
+    color: #ffea37;
+    padding-top: 137px;
+    padding-bottom: 49px;
+}
+main .bg4 h3 {
+    font-size: 2.813rem;
+    font-weight: 600;
+
+}
+main .bg4 .popup {
+    width: 412px;
+    height: 206px;
+    border-radius: 60px;
+    background-color: #fff;
+    float: right;
+    display: flex;
+    align-items:;
+}
+main .bg4 .popup p {
+    color: #ffea37;
+    font-weight: 800;
+}
+main .bg4 .popup_2 {}
+main .bg4 .popup_2 p {}
+main .bg4 .popup_2 p em {}
